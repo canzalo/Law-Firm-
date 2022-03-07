@@ -1,0 +1,110 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E.M. Obonyo & Co. Advocates</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+</head>
+<body onload="myLoader()" style="margin: 0;">
+
+    <div class="center" id="center">
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+      </div>
+
+  <!-- Back to top button -->
+    <a href="#" id="scroll" style="display: none;"><span></span></a>
+
+ <section class="sub-header" id="header"> 
+<nav>
+    <a href="index.html"><img src="/assets/logo.jpg" ></a>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+       
+        <ul>
+            <li><a href="index.html" class="act" >HOME</a></li>
+            <li><a href="about.html" class="act">ABOUT</a></li>  
+            <li><a href="practice-areas.html" class="act">PRACTICE AREAS</a></li>  
+            <li><a href="blog.html" class="act">BLOG</a></li>
+            <li><a href="contact.html" class="act">CONTACT</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+<h1>Contact us</h1>
+ </section>   
+
+ <!----------------Contact------------->
+
+
+ <section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31907.711328697074!2d36.93337788654877!3d-1.4929577290415883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182fa1af248bf5fd%3A0x434d090327337823!2sE.%20M.%20Obonyo%20%26%20CO.%20Advocates!5e0!3m2!1sen!2ske!4v1646114586170!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+ <section class="contact-us">
+     <div class="row">
+         <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>Nairobi - Namanga Road, Kenwood plaza, 3rd Floor</h5>
+                    <p>Kitengela, Kajiado, Kenya</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+254 731-88-99-22</h5>
+                    <p>Monday to Friday, 9AM to 5PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <span>
+                    <h5>emobonyoadvocates@gmail.com </h5>
+                    <p>Email us your query</p>
+                </span>
+            </div>
+         </div>
+         <div class="contact-col">
+             <form action="formHandler.php" method="post">
+                 <input type="text" name="name" placeholder="Enter your name" required>
+                 <input type="email" name="email" placeholder="Enter email address" required>
+                 <input type="text" name="subject" placeholder="Enter your subject" required>
+                 <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                 <button type="submit" class="hero-btn red-btn">Send Message</button>
+             </form>
+        </div>
+     </div>
+ </section>
+
+
+<!------Footer------->
+
+<section class="footer"> 
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ullam necessitatibus quia, maxime velit dolorum reprehenderit dolorem ipsam <br>placeat ratione odio consectetur, exercitationem commodi inventore.</p>
+<div class="icons">
+    <i class="fab fa-facebook"></i>
+    <i class="fab fa-twitter"></i>   
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-linkedin"></i>
+</div>
+<p>2021 - 2022 <span class="copy">&copy; </span>All rights reseved</p>
+</section>
+
+<!-- -------JavaScript---------->
+
+<script src="script.js"></script>
+</body>
+</html>
