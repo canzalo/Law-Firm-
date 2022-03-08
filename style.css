@@ -306,7 +306,11 @@ h3{
     .row{
         flex-direction: column;
     }
+    .practice-areas-col{
+        margin-bottom: 5%; 
+    }
 }
+
 
 
 
