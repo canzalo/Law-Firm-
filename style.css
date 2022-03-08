@@ -283,9 +283,9 @@ nav .fa{
 }
 .practice-areas-col{
     flex-basis: 31%;
-    background:  #D4B784/*#fff3f3*/;
+    background:  #f5ecd9 /*#fff3f3*/;
     border-radius: 10px;
-   /* margin-bottom: 5%;*/
+   margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
     transition: 0.5s;
